@@ -16,12 +16,21 @@
     "@rollup/plugin-json": "^6.1.0",
     "@rollup/plugin-node-resolve": "^15.2.3",
     "@types/jest": "^29.5.12",
+    "@types/webpack-env": "^1.18.4",
+    "copy-webpack-plugin": "^12.0.2",
+    "file-loader": "^6.2.0",
     "jest": "^29.7.0",
     "jest-environment-jsdom": "^29.7.0",
     "rollup": "3",
     "rollup-plugin-typescript2": "^0.35.0",
+    "sass": "^1.77.2",
+    "sass-loader": "^14.2.1",
     "ts-jest": "^29.1.2",
     "ts-node": "^10.9.2",
-    "typescript": "^5.4.5"
+    "typescript": "^5.4.5",
+    "url-loader": "^4.1.1"
+  },
+  "dependencies": {
+    "vue-custom-components": "workspace:^"
   }
 }
